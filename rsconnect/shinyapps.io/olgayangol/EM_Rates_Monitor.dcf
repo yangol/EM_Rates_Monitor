@@ -1,0 +1,12 @@
+name: EM_Rates_Monitor
+title: EM_Rates_Monitor
+username:
+account: olgayangol
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 335180
+bundleId: 1350124
+url: https://olgayangol.shinyapps.io/EM_Rates_Monitor/
+when: 1525208148.80913
+asMultiple: FALSE
+asStatic: FALSE
