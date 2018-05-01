@@ -3,14 +3,13 @@
 # load library
 
 library(rsconnect)
-library(RQuantLib)
 library(shinydashboard)
 library(DT)
 library(shinydashboard)
 library(googleVis)
 library(ggplot2)
 library(dplyr)
-
+library(RQuantLib)
 
 # Country list and metric list
 countryChoices = c('Brazil', 'Indonesia', 'Mexico', 'Poland', 'Russia', 'South_Africa', 'Turkey')

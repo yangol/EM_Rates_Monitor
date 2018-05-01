@@ -12,7 +12,7 @@ shinyUI(dashboardPage(
     # Select metric
     selectizeInput("metricSelected",  "Select a metric to highlight", choice = metricChoices, select = 'coupon'),
     
-    # Two tab resul
+    # Result
     sidebarMenu(
       menuItem("Result", tabName = "result", icon = icon("database")))
   ),
