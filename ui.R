@@ -1,5 +1,5 @@
 shinyUI(dashboardPage(
-  dashboardHeader(title = "Emerging Markets"),
+  dashboardHeader(title = "EM Rates Monitor"),
   dashboardSidebar(
     # Header
     sidebarUserPanel("Olga Yangol",
@@ -10,7 +10,7 @@ shinyUI(dashboardPage(
     selectizeInput("countrySelected",  "Select a country", choice = countryChoices, select = 'Russia'),
     
     # Select metric
-    selectizeInput("metricSelected",  "Select a metric to highlight", choice = metricChoices, select = 'coupon'),
+    selectizeInput("metricSelected",  "Select a metric to highlight", choice = metricChoices, select = 'Carry'),
     
     # Result
     sidebarMenu(
